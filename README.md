@@ -22,3 +22,5 @@ install.packages("shiny", dependencies = T)
 modelo = lm(CustoInicial ~ FranquiaAnual, data = dados)
 previsao = predict(modelo, data.frame(FranquiaAnual = eval(parse(text = valor))))
 ```
+[Acesse o site aqui](https://katharinepires.shinyapps.io/InvestimentoInicial/)
+[Katharine Pires](https://www.linkedin.com/in/katharine-pires-53b849155/)
